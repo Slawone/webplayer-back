@@ -1,0 +1,31 @@
+# EditorConfig для проекта JS/ESM с ESLint
+
+# Этот файл корневой
+root = true
+
+# Применяется ко всем файлам
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# JS, TS, JSX, TSX
+[*.{js,ts,jsx,tsx}]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# JSON, YAML, Markdown
+[*.{json,yml,yaml,md}]
+trim_trailing_whitespace = false
+
+# Игнорируем временные файлы
+[node_modules/**]
+ignore = true
+
+[_temp/**]
+ignore = true
