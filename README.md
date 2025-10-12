@@ -1,3 +1,1 @@
-# starter_repo
-a starter repository for backend and frontend applications
-
+# starter repository for backend application
