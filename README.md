@@ -1,1 +1,1 @@
-# starter repository for backend application
+# web player backend application
