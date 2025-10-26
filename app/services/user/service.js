@@ -9,8 +9,6 @@
  */
 
 export const getRegData = (regData) => {
-  console.log(regData);
-
   return regData;
   // throw new Error('Data not found');
 };
