@@ -18,7 +18,12 @@ export default [
       prettier: prettierPlugin,
     },
     rules: {
-      'prettier/prettier': 'error',
+      'prettier/prettier': [
+        'error',
+        {
+          endOfLine: 'auto',
+        },
+      ],
       'no-unused-vars': 'warn',
       'no-undef': 'error',
       eqeqeq: ['error', 'always'],
